@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_RMX2170.mk
+    $(LOCAL_DIR)/infinity_RMX2170.mk
     
 COMMON_LUNCH_CHOICES := \
-    droidx_RMX2170-user \
-    droidx_RMX2170-userdebug \
-    droidx_RMX2170-eng    
+    infinity_RMX2170-user \
+    infinity_RMX2170-userdebug \
+    infinity_RMX2170-eng    
