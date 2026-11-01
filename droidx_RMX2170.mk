@@ -17,11 +17,11 @@
 # Inherit from RMX2170 device
 $(call inherit-product, device/realme/RMX2170/device.mk)
 
-# Inherit some common DroidX-UI stuff
-$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+# Inherit some common infinity-UI stuff
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := droidx_RMX2170
+PRODUCT_NAME := infinity_RMX2170
 PRODUCT_DEVICE := RMX2170
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 7 Pro
@@ -31,8 +31,8 @@ PRODUCT_MANUFACTURER := Realme
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # DroidX-UI Build Flags
-DROIDX_BUILD_TYPE := OFFICIAL
-DROIDX_GAPPS := true
+infinity_BUILD_TYPE := OFFICIAL
+infinity_GAPPS := true
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_USE_GOOGLE_TELEPHONY := true
 TARGET_ENABLE_BLUR := true
