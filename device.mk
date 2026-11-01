@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += \
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUIGoogle
+    SystemUI
 
 # Dex/ART optimization
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
@@ -320,10 +320,6 @@ PRODUCT_PACKAGES += \
 # RealmeParts
 PRODUCT_PACKAGES += \
     RealmeParts
-
-# Remove Packages
-PRODUCT_PACKAGES += \
-    RemovePackages
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
