@@ -27,7 +27,7 @@ PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 7 Pro
 PRODUCT_MANUFACTURER := Realme
 WITH_GAPPS := true
-
+INFINITY_MAINTAINER := codebht
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
